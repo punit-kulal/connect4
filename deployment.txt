@@ -1,0 +1,4 @@
+Instructions for running locally
+- Use maven to build target jar
+- Execute the target jar with openjdk 11 with the command
+    java -jar {path to jar}/connect4-0.0.1-SNAPSHOT.jar -Dserver.port={port on which to run on}
